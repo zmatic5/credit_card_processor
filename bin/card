@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../config/boot'
+
+file = ARGV.first
+
+unless file && File.exist?(file)
+  warn "File not found: #{file || 'none provided'}"
+  exit(1)
+end
+
+unless File.extname(file) == '.txt'
+  warn 'Only .txt files are allowed'
+  exit(1)
+end
+
+File.open(file, 'r') do |f|
+  Commands::ProcessorService.call(f.each_line)
+end

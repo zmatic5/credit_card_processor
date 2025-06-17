@@ -1,0 +1,22 @@
+Add Tom 4111111111111111 $1000
+Add Mike 4111111111111112 $5000
+Add Lisa 5454545454545454 $3000
+Add Lisa 5555555555555555 $3000
+
+Addd Gina 4545454545454545 $3000
+Add Quincy 1234567890123456 $2000
+Add Tim 5454545454545454 $3000
+
+Charge Mike $500
+Credit Mike $400
+
+Charge Tim $500
+Charge Tom $500
+Charge Tom $100
+Charge Tom $800
+Charge Gina $300
+Credit Gina $200
+Charge Lisa $7
+Credit Lisa $100
+Credit Lisa $500
+Credit Quincy $200
